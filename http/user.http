@@ -1,0 +1,15 @@
+### sender
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "lee"
+}
+
+### receiver
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+"name": "kim"
+}

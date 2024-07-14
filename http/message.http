@@ -1,0 +1,9 @@
+### create message
+POST localhost:8080/pub/messages
+Content-Type: application/json
+
+{
+  "messageRoomId": 1,
+  "senderId": 1,
+  "content": "Hi~"
+}
